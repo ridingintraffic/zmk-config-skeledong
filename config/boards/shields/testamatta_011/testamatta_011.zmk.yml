@@ -1,8 +1,0 @@
-file_format: "1"
-id: testamatta_011
-name: testamatta_011
-type: shield
-url: https://github.com/hide-key/testamatta/tree/main
-requires: [seeed_xiao]
-features:
-  - keys
