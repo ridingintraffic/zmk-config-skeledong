@@ -7,7 +7,7 @@
 #include "skeletyl.dtsi"
 
  &kscan0 {
-    compatible = "zmk,kscan-gpio-matrix";
+    compatible = "zmk,kscan-gpio-matrix"
      col-gpios
          , <&xiao_d 6 GPIO_ACTIVE_HIGH>
          , <&xiao_d 5 GPIO_ACTIVE_HIGH>
