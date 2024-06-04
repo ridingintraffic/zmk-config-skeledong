@@ -153,11 +153,11 @@
             label = "numpad";
             bindings = <
 //╭──────────┬──────────┬──────────┬──────────┬──────────╮                         ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-   &kp EXCL     &kp AT    &kp HASH  &kp DOLLAR &kp PRCNT                            &kp N7     &kp N8     &kp N9       &none      &none 
+   &kp EXCL     &kp AT    &kp HASH  &kp DOLLAR &kp PRCNT                             &none       &kp N7     &kp N8     &kp N9      &none 
 //├──────────┼──────────┼──────────┼──────────┼──────────┤                         ├──────────┼──────────┼──────────┼──────────┼──────────┤
-  &tdclr &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3                        &kp N4       &kp N5     &kp N6     &none     &none 
+  &tdclr &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3                         &none      &kp N4       &kp N5     &kp N6     &none 
 //├──────────┼──────────┼──────────┼──────────┼──────────┤                         ├──────────┼──────────┼──────────┼──────────┼──────────┤
- &rgb_ug RGB_TOG &rgb_ug RGB_EFR &rgb_ug RGB_EFF &rgb_ug RGB_BRI &tdrst             &kp N1       &kp N2     &kp N3     &none      &none 
+ &rgb_ug RGB_TOG &rgb_ug RGB_EFR &rgb_ug RGB_EFF &rgb_ug RGB_BRI &tdrst             &none        &kp N1       &kp N2     &kp N3    &none 
  //╰──────────┴──────────┼──────────┼──────────┼─────────╯                         ╰─────────┼───────────┼──────────┼──────────┼──────────╯
                     &none       &rgb_ug RGB_EFF &rgb_ug RGB_BRD                  &kp N0     &kp DOT   &kp ENTER
  //            ╰──────────────┴──────────────┴─────────────────╯              ╰─────────────────────┴───────────────┴───────────────╯
@@ -167,11 +167,11 @@
             label = "sin";
             bindings = <
 //╭──────────┬──────────┬──────────┬──────────┬──────────╮                         ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-   &kp EXCL     &kp AT    &kp HASH  &kp DOLLAR &kp PRCNT                            &kp AMPS     &kp KP_MULTIPLY     &kp LPAR       &none      &none 
+   &kp EXCL     &kp AT    &kp HASH  &kp DOLLAR &kp PRCNT                            &none  &kp AMPS     &kp KP_MULTIPLY     &kp LPAR      &none 
 //├──────────┼──────────┼──────────┼──────────┼──────────┤                         ├──────────┼──────────┼──────────┼──────────┼──────────┤
-  &tdclr &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3                        &kp DOLLAR       &kp PRCNT     &kp CARET     &none     &none 
+  &tdclr &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3                        &none    &kp DOLLAR       &kp PRCNT     &kp CARET     &none 
 //├──────────┼──────────┼──────────┼──────────┼──────────┤                         ├──────────┼──────────┼──────────┼──────────┼──────────┤
- &rgb_ug RGB_TOG &rgb_ug RGB_EFR &rgb_ug RGB_EFF &rgb_ug RGB_BRI &tdrst             &kp EXCL       &kp AT     &kp HASH     &none      &none 
+ &rgb_ug RGB_TOG &rgb_ug RGB_EFR &rgb_ug RGB_EFF &rgb_ug RGB_BRI &tdrst            &none    &kp EXCL       &kp AT     &kp HASH      &none 
  //╰──────────┴──────────┼──────────┼──────────┼─────────╯                         ╰─────────┼───────────┼──────────┼──────────┼──────────╯
                     &none       &rgb_ug RGB_EFF &rgb_ug RGB_BRD                  &kp RPAR     &kp DOT   &kp ENTER
  //            ╰──────────────┴──────────────┴─────────────────╯              ╰─────────────────────┴───────────────┴───────────────╯
