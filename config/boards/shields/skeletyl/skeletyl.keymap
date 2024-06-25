@@ -65,6 +65,13 @@
             tapping-term-ms = <200>;
             bindings = <&none>, <&bootloader>;
         };
+        tdenter: tap_dance_2 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_0";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp Z>, <&kp ENTER>;
+        };
     };
 
   macros {
@@ -95,7 +102,7 @@
 //├──────────┼──────────┼──────────┼──────────┼──────────┤               ├──────────┼──────────┼──────────┼──────────┼──────────┤
    &lt OTH A  &lt SYM S   &lt NAV D &hs LSHIFT F  &kp G              &mt LG(LALT) H  &hs LSHIFT J &lt NAV K &lt SYM L &lt OTH SEMI
 //├──────────┼──────────┼──────────┼──────────┼──────────┤               ├──────────┼──────────┼──────────┼──────────┼──────────┤
-&mt LSHIFT Z       &kp X     &mt LCTL C &lt SIN V &lt NUM B              &mt RCTL N &mt RALT M &mt RGUI COMMA &kp DOT   &mt RSHIFT FSLH
+&tdenter  &kp X     &mt LCTL C &lt SIN V &lt NUM B              &mt RCTL N &mt RALT M &mt RGUI COMMA &kp DOT   &mt RSHIFT FSLH
 //╰──────────┴──────────┼──────────┼──────────┼─────────╯               ╰─────────┼───────────┼──────────┼──────────┼──────────╯
    &mt LSHIFT UNDER      &kp LGUI    &mt LC(LS(LALT)) BSPC        &mt LC(LS(LALT)) SPACE &mt LG(LC(LS(LALT))) ENTER  &mt RSHIFT MINUS
  //            ╰──────────────┴──────────────┴─────────────────╯    ╰─────────────────────┴───────────────┴───────────────╯
