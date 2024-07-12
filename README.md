@@ -51,3 +51,7 @@ CONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
 16.  now when you power on either board they will all bond with the single dongle.   you can mix and match left and right cause it doesnt care.  
 <end>
 ```
+
+# xiao seed enclosure to print  
+https://www.printables.com/model/522586-seeed-xiao-ble-case 
+
