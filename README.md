@@ -35,8 +35,7 @@ CONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
 2. flash the dongle firmware to the dongle.    
 3. power on 1-skeletyl-left  
 4. flash the settings reset on 1-skeletyl-left.    
-5. flash the firmware on  1-skeletyl-right.    
-
+5. flash the firmware on  1-skeletyl-left.    
 6. power on 1-skeletyl-right  
 7. flash the settings reset on 1-skeletyl-right.   
 8. flash the firmware on  1-skeletyl-right.    
@@ -44,7 +43,7 @@ CONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
 9. power off 1-skeletyl-left 1-skeletyl-right  
 10. power on 2-skeletyl-left  
 11. flash the settings reset on 2-skeletyl-left.  
-12. flash the firmware on  1-skeletyl-right.    
+12. flash the firmware on  2-skeletyl-left.    
 13. power on 2-skeletyl-right  
 14. flash the settings reset on 2-skeletyl-right.  
 15. flash the firmware on  2-skeletyl-right.   
