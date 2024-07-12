@@ -35,17 +35,20 @@ CONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
 2. flash the dongle firmware to the dongle.    
 3. power on 1-skeletyl-left  
 4. flash the settings reset on 1-skeletyl-left.    
-5. power on 1-skeletyl-right  
-6. flash the settings reset on 1-skeletyl-right.   
-7. flash the firmware on  1-skeletyl-right.    
+5. flash the firmware on  1-skeletyl-right.    
+
+6. power on 1-skeletyl-right  
+7. flash the settings reset on 1-skeletyl-right.   
+8. flash the firmware on  1-skeletyl-right.    
   - verify that 1-skeletyl-left and 1-skeletyl-right are connected to the dongle and functioning   
-8. power off 1-skeletyl-left 1-skeletyl-right  
-9. power on 2-skeletyl-left  
-10. flash the settings reset on 2-skeletyl-left.  
-11. power on 2-skeletyl-right  
-12. flash the settings reset on 2-skeletyl-right.  
-13. flash the firmware on  2-skeletyl-right.   
+9. power off 1-skeletyl-left 1-skeletyl-right  
+10. power on 2-skeletyl-left  
+11. flash the settings reset on 2-skeletyl-left.  
+12. flash the firmware on  1-skeletyl-right.    
+13. power on 2-skeletyl-right  
+14. flash the settings reset on 2-skeletyl-right.  
+15. flash the firmware on  2-skeletyl-right.   
   - verify that 2-skeletyl-left and 2-skeletyl-right are connected to the dongle and functioning  
-14.  now when you power on either board they will all bond with the single dongle.   you can mix and match left and right cause it doesnt care.  
+16.  now when you power on either board they will all bond with the single dongle.   you can mix and match left and right cause it doesnt care.  
 <end>
 ```
