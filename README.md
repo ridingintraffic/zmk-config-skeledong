@@ -47,4 +47,5 @@ CONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
 13. flash the firmware on  2-skeletyl-right.   
   - verify that 2-skeletyl-left and 2-skeletyl-right are connected to the dongle and functioning  
 14.  now when you power on either board they will all bond with the single dongle.   you can mix and match left and right cause it doesnt care.  
+<end>
 ```
