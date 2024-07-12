@@ -27,22 +27,24 @@ CONFIG_ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS=4
 CONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
 ```
 
+```
 <begin>  
 0.  you have nothing paired but you have the dongle and the boards. 
  - all boards should be powered off.
-1. flash the settings reset on the dongle.  
-2. flash the dongle firmware to the dongle.  
-3. power on 1-skeletyl-left
-4. flash the settings reset on 1-skeletyl-left.  
-5. power on 1-skeletyl-right
-6. flash the settings reset on 1-skeletyl-right. 
-7. flash the firmware on  1-skeletyl-right.  
-  - verify that 1-skeletyl-left and 1-skeletyl-right are connected to the dongle and functioning 
-8. power off 1-skeletyl-left 1-skeletyl-right
-9. power on 2-skeletyl-left
+1. flash the settings reset on the dongle.    
+2. flash the dongle firmware to the dongle.    
+3. power on 1-skeletyl-left  
+4. flash the settings reset on 1-skeletyl-left.    
+5. power on 1-skeletyl-right  
+6. flash the settings reset on 1-skeletyl-right.   
+7. flash the firmware on  1-skeletyl-right.    
+  - verify that 1-skeletyl-left and 1-skeletyl-right are connected to the dongle and functioning   
+8. power off 1-skeletyl-left 1-skeletyl-right  
+9. power on 2-skeletyl-left  
 10. flash the settings reset on 2-skeletyl-left.  
-11. power on 2-skeletyl-right
-12. flash the settings reset on 2-skeletyl-right. 
-13. flash the firmware on  2-skeletyl-right.  
-  - verify that 2-skeletyl-left and 2-skeletyl-right are connected to the dongle and functioning 
+11. power on 2-skeletyl-right  
+12. flash the settings reset on 2-skeletyl-right.  
+13. flash the firmware on  2-skeletyl-right.   
+  - verify that 2-skeletyl-left and 2-skeletyl-right are connected to the dongle and functioning  
 14.  now when you power on either board they will all bond with the single dongle.   you can mix and match left and right cause it doesnt care.  
+```
