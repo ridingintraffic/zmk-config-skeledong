@@ -1,10 +1,13 @@
 include:
   - board: nice_nano_v2
     shield: skeletyl_left
+    snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: skeletyl_right
+    snippet: zmk-usb-logging
   - board: seeeduino_xiao_ble
     shield: skeletyl_dongle
+    snippet: zmk-usb-logging
   - board: seeeduino_xiao_ble
     shield: settings_reset
   - board: nice_nano_v2
