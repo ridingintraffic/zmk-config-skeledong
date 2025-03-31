@@ -2,7 +2,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/outputs.h>
 
 #define DEFAULT 0
@@ -11,8 +10,6 @@
 #define OTH     3
 #define NUM     4
 #define SIN     5
-
-#define RGB_UG_TOG &rgb_ug RGB_TOG
 
 
 #define TAPPING_TERM 200
@@ -150,9 +147,9 @@
 //├──────────┼──────────┼──────────┼──────────┼──────────┤                         ├──────────┼──────────┼──────────┼──────────┼──────────┤
   &tdclr &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3                     &kp HOME    &kp END  &kp PG_UP &kp PG_DN      &kp COLON
 //├──────────┼──────────┼──────────┼──────────┼──────────┤                         ├──────────┼──────────┼──────s────┼──────────┼──────────┤
-   &rgb_ug RGB_TOG &rgb_ug RGB_EFR &rgb_ug RGB_EFF &rgb_ug RGB_BRI &tdrst &tdrst &rgb_ug RGB_HUI &rgb_ug RGB_SAI &none &rgb_ug RGB_BRD
+      &none      &none      &none      &none     &tdrst                              &tdrst &none &none &none &none
  //╰──────────┴──────────┼──────────┼──────────┼─────────╯                         ╰─────────┼───────────┼──────────┼──────────┼──────────╯
-                    &none       &rgb_ug RGB_EFF &rgb_ug RGB_BRD                  &rgb_ug RGB_HUD    &rgb_ug RGB_SAD   &ext_power EP_TOG
+                    &none       &none   &none                 &none    &none   &ext_power EP_TOG
  //            ╰──────────────┴──────────────┴─────────────────╯              ╰─────────────────────┴───────────────┴───────────────╯
                 >;
         };
