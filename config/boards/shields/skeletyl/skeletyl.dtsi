@@ -51,7 +51,6 @@
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
         zmk,battery = &vbatt;
-        zmk,underglow = &led_strip;
     };
 
     default_transform: keymap_transform_0 {
@@ -69,6 +68,7 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4)                 RC(2,5) RC(2,6) RC(2,7) 
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
+        wakeup-source;
         label = "KSCAN";
 
         diode-direction = "row2col";
